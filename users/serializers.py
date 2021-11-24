@@ -4,10 +4,9 @@ from rest_framework.serializers import ModelSerializer
 
 class RegisterUserSerializer(ModelSerializer):
     class Meta:
-        model            = get_user_model()
-        exclude          = ('last_login', )
-        read_only_fields = ('is_staff', 'last_login', 'is_admin', 'id')
-        extra_kwargs     = {'password' : {'write_only' : True}}
+        model        = get_user_model()
+        fields       = ('id', 'password')
+        extra_kwargs = {'password' : {'write_only' : True}}
 
     def create(self, validated_data):
         return self.Meta.model.objects.create_user(**validated_data)

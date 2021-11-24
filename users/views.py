@@ -3,7 +3,6 @@ from rest_framework.generics    import CreateAPIView
 from rest_framework.permissions import AllowAny
 from django.contrib.auth        import get_user_model
 
-from .permissions               import IsOwner
 from .models                    import User
 from .serializers               import RegisterUserSerializer
 
