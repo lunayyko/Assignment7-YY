@@ -22,7 +22,7 @@ class User(AbstractBaseUser):
     USERNAME_FIELD  = 'id'
 
     def __str__(self):
-        return self.email
+        return f'{self.id}'
 
     def has_perm(self, perm, obj=None):
         return True
