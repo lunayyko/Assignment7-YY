@@ -29,7 +29,10 @@
 - 데이터베이스 관련처리는 raw query가 아닌 **ORM을 이용하여 구현**합니다.
 - Response Codes API를 성공적으로 호출할 경우 200번 코드를 반환하고, 그 외의 경우에는 아래의 코드로 반환합니다.
 
-[Copy of Code](https://www.notion.so/08e67c3cdc8e471fb1aab50e5963fb05)
+200 | OK	| 성공
+400 | Bad Request	| Parameter가 잘못된 (범위, 값 등)
+401 | Unauthorized	| 인증을 위한 Header가 잘못됨
+500 | Internal Server Error	| 기타 서버 에러
 
 ---
 
