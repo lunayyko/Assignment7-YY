@@ -26,7 +26,7 @@ SECRET_KEY = SECRET_KEY
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['.compute.amazonaws.com', '127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['.compute.amazonaws.com', '3.38.150.162', 'localhost']
 
 AUTH_USER_MODEL = 'users.User'
 
