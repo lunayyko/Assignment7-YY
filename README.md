@@ -29,10 +29,14 @@
 - 데이터베이스 관련처리는 raw query가 아닌 **ORM을 이용하여 구현**합니다.
 - Response Codes API를 성공적으로 호출할 경우 200번 코드를 반환하고, 그 외의 경우에는 아래의 코드로 반환합니다.
 
-200 | OK	| 성공. 
+200 | OK	| 성공 
+
 400 | Bad Request	| Parameter가 잘못된 (범위, 값 등). 
+
 401 | Unauthorized	| 인증을 위한 Header가 잘못됨. 
+
 500 | Internal Server Error	| 기타 서버 에러. 
+
 
 ---
 
@@ -48,7 +52,7 @@
 
  { "id": "candycandy", "password": "ASdfdsf3232@" }
 ```
-
+---
 
 ## 사용 기술 및 tools
 > - Back-End :  <img src="https://img.shields.io/badge/Python 3.8-3776AB?style=for-the-badge&logo=Python&logoColor=white"/>&nbsp;<img src="https://img.shields.io/badge/Django 3.2-092E20?style=for-the-badge&logo=Django&logoColor=white"/>&nbsp;<img src="https://img.shields.io/badge/MySQL 8.0-0064a5?style=for-the-badge&logo=MySQL&logoColor=white"/>
@@ -102,7 +106,7 @@
     ```bash
     python manage.py runserver 0.0.0.0:8000
     ```
-
+</details>
 
 # Reference
 - 이 프로젝트는 원티드x위코드 백엔드 프리온보딩 과제 일환으로 xx에서 출제한 과제를 기반으로 만들었습니다.
