@@ -36,8 +36,6 @@
 500 | Internal Server Error	| 기타 서버 에러. 
 
 
----
-
 ## 2. 사용자 생성 API
 
 🎁 **요구사항**
@@ -50,7 +48,7 @@
 
  { "id": "candycandy", "password": "ASdfdsf3232@" }
 ```
----
+
 
 ## 사용 기술 및 tools
 > - Back-End :  <img src="https://img.shields.io/badge/Python 3.8-3776AB?style=for-the-badge&logo=Python&logoColor=white"/>&nbsp;<img src="https://img.shields.io/badge/Django 3.2-092E20?style=for-the-badge&logo=Django&logoColor=white"/>&nbsp;<img src="https://img.shields.io/badge/MySQL 8.0-0064a5?style=for-the-badge&logo=MySQL&logoColor=white"/>
