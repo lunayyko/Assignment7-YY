@@ -63,7 +63,7 @@
 
 ## API
 
-<img width="1045" alt="Screen Shot 2021-11-27 at 5 49 04 PM" src="https://user-images.githubusercontent.com/8315252/143674862-76f3d6fd-7b4a-41df-95ef-0b53eda21a87.png">
+<img width="1044" alt="Screen Shot 2021-11-28 at 7 42 46 PM" src="https://user-images.githubusercontent.com/8315252/143765334-6ac87fc4-edde-4ab9-b775-d08cb05ac0a7.png">
 
 ## 구현 기능
 
@@ -108,5 +108,5 @@
 </details>
 
 # Reference
-- 이 프로젝트는 원티드x위코드 백엔드 프리온보딩 과제 일환으로 xx에서 출제한 과제를 기반으로 만들었습니다.
+- 이 프로젝트는 원티드x위코드 백엔드 프리온보딩 과제 일환으로 카닥에서 출제한 과제를 기반으로 만들었습니다.
 - 본 과제는 저작권의 보호를 받으며, 문제에 대한 정보를 배포하는 등의 행위를 금지 합니다.
