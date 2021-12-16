@@ -106,7 +106,7 @@
   
 ## 블로그
 
-[루나의 기술블로그 - 원티드 x 위코드 프리온보딩 과제7 카닥(타이어정보 검색)]https://lunayyko.github.io/wecode/2021/11/29/wantedxwecode-7-cardoc/
+[루나의 기술블로그 - 원티드 x 위코드 프리온보딩 과제7 카닥(타이어정보 검색)](https://lunayyko.github.io/wecode/2021/11/29/wantedxwecode-7-cardoc)
 
 # Reference
 - 이 프로젝트는 원티드x위코드 백엔드 프리온보딩 과제 일환으로 카닥에서 출제한 과제를 기반으로 만들었습니다.
